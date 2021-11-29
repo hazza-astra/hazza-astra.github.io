@@ -11858,7 +11858,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .p.siteFooter {
   color: white;
   font-family: 'Roboto Mono', serif;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 1.25em;
 }
 
@@ -11892,4 +11892,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
   animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1.8s; /* don't forget to set a duration! */
+}
+
+
+@media screen and (max-width: 1023px) {
+  .imageMobileSizing {
+    height: 128px !important;
+    width: 128px !important;
+  }
+  .isCenteredMobile {
+    text-align: center !important;
+    margin-left: 0rem !important;
+  }
 }
